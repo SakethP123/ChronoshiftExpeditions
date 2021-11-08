@@ -1,0 +1,526 @@
+
+header{
+  border: gold;
+  border-style: solid;
+  height:50px;
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+/*navigation*/
+    nav {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      ;
+    }
+
+    @media only screen and (min-width: 768px) {
+      nav { flex-direction: row; }
+    }
+
+    nav a{
+      flex: 1;
+      text-align: center;
+      display: block;
+      margin: .90em;
+      padding: 0.65em;
+      border: 2px solid rgb(0, 0, 0);
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      background-color: gold;
+      font-size: 15px;
+    }
+    nav a:hover{
+      background: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+    }
+ 
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;}
+    
+      /*footer*/
+   
+   
+      .container2{
+      padding: 16px;
+       background-color: white;
+       width: 38%;
+       margin-left: 30%;
+    }
+    .signupbin
+    {background-color: rgb(250, 249, 246);
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 55%;
+      opacity: 0.9;}
+      .signupbin:hover{
+        opacity:3;
+      }
+      a{
+        color: red;
+      }
+      .col{
+        border: solid;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        height: 5;
+        width: 45%;
+        background-color:gold; 
+      margin-left: 25%;}
+
+     .contacts
+     {border: solid;
+      width: 45%;
+      text-align: center;
+      margin-left: 25%;
+      color: rgb(0, 0, 0);
+      background-color: gold
+    }
+ 
+
+ 
+/*exp*/
+
+
+    .heroimg{
+      width: 100%;
+      margin: 0%;
+   height: 90vh;
+   margin-top: 11vh;
+
+}
+.heroimg1{
+  width: 100%;
+  margin: 0%;
+height: 90vh;
+margin-top: 11vh;}
+
+
+.class-for-exp
+
+  
+     
+  nav a:active{
+ background color: black;}
+  img  {
+    width: 15% ;
+    height: 5%;
+  }
+
+  body {
+    color: rgb(14, 13, 13);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 0;
+   }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  
+
+ /*register form book now*/
+
+ .container{
+   padding: 16px;
+   background-color: white;
+ }
+ .form{
+   border: solid;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: gold;
+   
+ }
+
+ input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+
+  .office
+  {
+    width: 50%;
+    margin-top: 5%;
+    height: 500px;
+    margin-left: 25%;
+    padding bottom: 5%;
+  }
+   
+  .info
+  {
+    margin-top: 5%;
+    border: solid;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;}
+
+  .Terms {
+    display:block;
+    padding: 0px;
+    margin: 1em;
+    border: 3px solid #ddd;
+    background-color: #eee;
+    max-width: 350px;
+    margin-top: 0%;
+    position: relative;bottom: 100px;
+    
+  }
+  
+  input {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+  }
+
+  .signupbin
+  {background-color: rgb(250, 249, 246);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+    opacity: 0.9;
+  position: relative;bottom: 90px;}
+    .signupbin:hover{
+      opacity:3;
+    }
+
+     /*exp cars*/
+    
+     @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+  background: rgb(255, 255, 255);
+  color: #555555;
+  font-size: 14px;
+}
+
+img {
+
+  display: block;
+  width: 100%;
+  height: 400px;
+
+
+}
+
+.wrapper {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.cards_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards_wrap .card_item {
+  width: 50%;
+  padding: 15px;
+}
+
+.cards_wrap .card_inner {
+  background: gold;
+}
+
+.cards_wrap .card_top {
+  width: 100%;
+  min-height: 225px;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-top: 20px;
+}
+
+.cards_wrap .card_bottom {
+  padding: 15px;
+}
+
+.cards_wrap .card_bottom .card_category {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards_wrap .card_bottom .card_info {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #000000;
+}
+
+.cards_wrap .card_bottom .card_info .title {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cards_wrap .card_bottom .card_creator {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cards_wrap .card_item {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards_wrap .card_item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 528px) {
+  .cards_wrap .card_top {
+    height: auto;
+  }
+  .cards_wrap .card_item {
+    width: 100%;
+  }
+}
+
+.cards_wrap2 {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 20px;
+}
+
+.cards_wrap2 .card_item {
+  width: 50%;
+  padding: 15px;
+}
+
+.cards_wrap2 .card_inner {
+  background: gold;
+}
+
+.cards_wrap2 .card_top {
+  width: 100%;
+  min-height: 225px;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.cards_wrap2 .card_bottom {
+  padding: 15px;
+}
+
+.cards_wrap2 .card_bottom .card_category {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards_wrap2 .card_bottom .card_info {
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #000000;
+}
+
+.cards_wrap2 .card_bottom .card_info .title {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cards_wrap2 .card_bottom  {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-container{
+  background-color: gold;
+  padding: 4px;
+  margin-top: 10px;
+}
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: gold;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.footer-heading{
+  display:flex;
+  flex-direction: row;
+  margin-right: 5px;
+  margin-left: 25px;
+}
+.footer-heading h2 {
+  margin-bottom: 1px;
+
+}
+.footer-heading a{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+.footer-heading a:hover{
+  color: black;
+  transition: 0.3s ease-out;
+}
+@media screen and ( width:1150px){
+  .footer{
+    height:50vh;
+  }
+}
+@media screen and ( width:820px){
+  .footer{
+    padding-top: 2rem;
+  }
+}
+
+/*rules*/
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+}
+
+.flex-item {
+  background: gold;
+  padding: 15px;
+  width: 28%;
+  height: 120px;
+  margin-top: 20px;
+  line-height: 150px;
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.header
+{border: rgb(0, 0, 0);
+  border-style: solid;
+  height: 40px;
+  margin: 0;
+  text-align: center;
+  margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.header2
+{border: rgb(0, 0, 0);
+  border-style: solid;
+  height: 40px;
+  margin top:15px;
+  text-align: center;
+  margin-top: 10px;
+margin-bottom: 10px;
+}
+.flex-container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+}
+
+.flex-item2
+{ background: gold;
+  padding: 15px;
+  width: 28%;
+  height: 120px;
+  margin-top: 20px;
+  line-height: 150px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;}
+  .rulesimg
+  {width: 100%;
+    margin: 0%;
+  height: 80vh;
+  margin-top: 15px;
+ }
